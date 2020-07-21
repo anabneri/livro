@@ -5,6 +5,7 @@ public class Threads_exemplo_runnable {
     public static void main(String[] args) {
 
         new Thread(new Runnable() {
+            // exemplo thread runnable
             public void run() {
                 // esse código será executado em paralelo
                 System.out.println("Id " + Thread.currentThread().getId());
